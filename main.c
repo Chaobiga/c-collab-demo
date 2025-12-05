@@ -9,16 +9,15 @@ int main() {
     
     // Operations placeholders (subtraction logic)
     int a, b;
-    printf("Enter two integers for subtraction (a - b): ");
+    printf("Enter two integers : ");
     scanf("%d %d", &a, &b);
 
-    int result = a - b;
-    printf("Result of %d - %d = %d\n", a, b, result);
+    int subresult = a - b;
+    printf("Result of %d - %d = %d\n", a, b, subresult);
+    int addresult = a + b;
+    printf("Result of %d + %d = %d\n", a, b, addresult);
 
     // Operations placeholders
     printf("System Check OK.\n");
-
-    int result = add(5, 3);
-    printf("Addition Result: %d\n", result);
     return 0;
 }
